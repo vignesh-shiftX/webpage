@@ -1,0 +1,256 @@
+body {
+  font-family: "Montserrat", "open sans";
+}
+
+.logo {
+  width: 150px;
+}
+
+/* Margins */
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.mt-xs {
+  margin-top: 20px;
+}
+
+.mt-s {
+  margin-top: 50px;
+}
+
+.mt-m {
+  margin-top: 100px;
+}
+
+.mt-l {
+  margin-top: 150px;
+}
+
+/* Colors */
+
+.primaryColor {
+  color: #149bfe;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 76px;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 62px;
+}
+
+p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.buttonSmall {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 10px 20px;
+  background-color: #000000;
+}
+
+.buttonSmall:hover {
+  background: #745cff !important;
+  color: #fff;
+  transition: 0.5s linear;
+}
+
+.primaryButton {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  background: #000000;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.primaryButton:hover {
+  background: #745cff !important;
+  transition: 0.5s linear;
+}
+
+.secondaryButton {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  background: transparent;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.secondaryButton:hover {
+  background: #745cff !important;
+  transition: 0.3s linear;
+}
+
+.secondaryButton2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #745cff;
+  background: transparent;
+  border: 1px solid #745cff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.secondaryButton2:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 0.3s linear;
+}
+
+.buttonWhite {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  background: #fff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.buttonWhite:hover {
+  color: #fff;
+  background: #745cff !important;
+  transition: 0.3s linear;
+}
+
+.featurePoint {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #b6bfc0;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.feature {
+  background: #e7e7e7;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.comparisonPoint {
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.companies {
+  width: 100%;
+  overflow: scroll;
+}
+
+.companies * {
+  padding: 20px;
+}
+
+.promoContainer {
+  background: linear-gradient( 98.48deg, #149bfe -1.29%, rgba(20, 155, 254, 0.43) 94.43% );
+  border-radius: 19px;
+  padding: 20px 34px;
+}
+
+.promoInner {
+  background-color: #12263a;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+footer a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #000000 !important;
+}
+
+.link-secondary {
+  color: #000000 !important;
+}
+
+footer li {
+  padding-top: 10px;
+  color: #000000 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .mt-s {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mt-m {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mt-l {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .promoContainer {
+    background: linear-gradient( 98.48deg, #149bfe -1.29%, rgba(20, 155, 254, 0.43) 94.43% );
+    border-radius: 19px;
+    padding: 15px 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .promoInner {
+    background-color: #12263a;
+    padding: 10px;
+    border-radius: 16px;
+  }
+}
+
